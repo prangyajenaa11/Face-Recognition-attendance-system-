@@ -1,84 +1,70 @@
-# Face-Recognition-attendance-system-
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+# Getting Started with Create React App
 
-## Introduction
-This project is a Face Recognition Attendance System that utilizes facial recognition technology to mark the attendance of individuals. It captures an image, recognizes faces in the image, and logs attendance automatically.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
-- Real-time face recognition
-- Attendance logging with timestamps
-- User-friendly GUI for capturing images and viewing attendance
-- Configurable to add or remove users
-- Data storage using SQLite for easy access and management
+## Available Scripts
 
-## Installation
+In the project directory, you can run:
 
-### Prerequisites
-- Python 3.7 or higher
-- Node.js and npm
-- OpenCV
-- dlib
-- face_recognition
-- SQLite
+### `npm start`
 
-### Steps
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/face-recognition-attendance-system.git
-    cd face-recognition-attendance-system
-    ```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-2. Backend Setup:
-    - Install the required Python packages:
-      ```bash
-      pip install -r requirements.txt
-      ```
-    - Set up the SQLite database:
-      ```bash
-      python setup_database.py
-      ```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-3. Frontend Setup:
-    - Navigate to the `frontend` directory and install the required npm packages:
-      ```bash
-      cd frontend
-      npm install
-      ```
+### `npm test`
 
-## Usage
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Running the Application
-1. Start the backend:
-    ```bash
-    python attendanceSystem.py
-    ```
+### `npm run build`
 
-2. Start the frontend:
-    ```bash
-    cd frontend
-    npm start
-    ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-3. Open your web browser and navigate to `http://localhost:3000` to access the application.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Adding Users
-1. Use the GUI to navigate to the "Add User" section.
-2. Capture the user's face and enter their details.
-3. Save the user's data to the database.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Viewing Attendance
-1. Use the GUI to navigate to the "View Attendance" section.
-2. Select the date to view the attendance records.
+### `npm run eject`
 
-## Configuration
-You can configure the settings for the face recognition system in the `config.py` file. This includes parameters like the threshold for face matching, the database path, and the directories for storing images.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
